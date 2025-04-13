@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="579dp"
+    android:height="579dp"
+    android:viewportWidth="579"
+    android:viewportHeight="579">
+  <!-- Rounded square background -->
+  <path
+      android:pathData="M81,0L498,0A81,81 0,0 1,579 81L579,498A81,81 0,0 1,498 579L81,579A81,81 0,0 1,0 498L0,81A81,81 0,0 1,81 0z"
+      android:fillColor="#FFFFFF"/>
+
+  <!-- Add a shadow effect with a transparent overlay -->
+  <path
+      android:pathData="M81,0L498,0A81,81 0,0 1,579 81L579,498A81,81 0,0 1,498 579L81,579A81,81 0,0 1,0 498L0,81A81,81 0,0 1,81 0z"
+      android:fillColor="#534030"
+      android:fillAlpha="0.1"/>
+
+  <!-- Top-left dot -->
+  <path
+      android:pathData="M177.5,176.5m-48.5,0a48.5,48.5 0,1 1,97 0a48.5,48.5 0,1 1,-97 0"
+      android:fillColor="#534030"/>
+
+  <!-- Top-right dot -->
+  <path
+      android:pathData="M402.5,176.5m-48.5,0a48.5,48.5 0,1 1,97 0a48.5,48.5 0,1 1,-97 0"
+      android:fillColor="#534030"/>
+
+  <!-- Bottom-left dot -->
+  <path
+      android:pathData="M177.5,401.5m-48.5,0a48.5,48.5 0,1 1,97 0a48.5,48.5 0,1 1,-97 0"
+      android:fillColor="#534030"/>
+
+  <!-- Bottom-right dot -->
+  <path
+      android:pathData="M402.5,401.5m-48.5,0a48.5,48.5 0,1 1,97 0a48.5,48.5 0,1 1,-97 0"
+      android:fillColor="#534030"/>
+</vector>
